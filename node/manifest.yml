@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 128M
+  instances: 1
+  domain: mybluemix.net
+  name: BLUEMIX NAME
+  host: BLUEMIX HOST NAME
+  disk_quota: 1024M
+  services:
+  - New Relic-NAME
+  - availability-monitoring-auto
